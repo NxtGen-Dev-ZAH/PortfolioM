@@ -11,7 +11,7 @@ export const Navbar = () => {
             <CircuitBoard className="h-7 w-7 text-cyan-500 transition-transform duration-300 group-hover:scale-110" />
             <div className="absolute inset-0 bg-cyan-500/20 rounded-full blur-md -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
-          <span className="text-lg font-bold tracking-tight">Zaheer Ahmed</span>
+          <span className="text-lg font-bold tracking-tight">Abdul Rehman</span>
         </Link>
         <nav className="hidden md:flex gap-8">
           <Link

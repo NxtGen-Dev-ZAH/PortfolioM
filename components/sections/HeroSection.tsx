@@ -13,7 +13,7 @@ export const HeroSection = () => {
             </div>
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                Zaheer Ahmed
+                Abdul Rehman
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500 mt-1">
                   Electrical Engineer
                 </span>
@@ -111,7 +111,7 @@ export const HeroSection = () => {
                   </p>
                   <p className="pl-4">
                     <span className="text-zinc-500">name:</span>{" "}
-                    <span className="text-amber-400">"Zaheer Ahmed"</span>,
+                    <span className="text-amber-400">"Abdul Rehman"</span>,
                   </p>
                   <p className="pl-4">
                     <span className="text-zinc-500">specialization:</span>{" "}

@@ -12,7 +12,7 @@ export const Footer = () => {
                 <CircuitBoard className="h-6 w-6 text-cyan-500 transition-transform duration-300 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-cyan-500/20 rounded-full blur-md -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
-              <span className="text-lg font-bold tracking-tight">Zaheer Ahmed</span>
+              <span className="text-lg font-bold tracking-tight">Abdul Rehman</span>
             </div>
             <p className="text-zinc-400 max-w-[400px]">
               Professional electrical engineer specializing in power systems, circuit design, and industrial automation.
@@ -145,7 +145,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="mt-12 border-t border-zinc-800 pt-6 text-center text-sm text-zinc-500">
-          <p>© 2023 Zaheer Ahmed. All rights reserved.</p>
+          <p>© 2023 Abdul Rehman. All rights reserved.</p>
         </div>
       </div>
     </footer>
