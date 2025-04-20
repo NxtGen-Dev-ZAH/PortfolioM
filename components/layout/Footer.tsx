@@ -3,22 +3,22 @@ import { CircuitBoard } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="border-t border-zinc-800 bg-black py-12">
-      <div className="container px-4 md:px-6">
+    <footer className="border-t border-[#444444] bg-black py-8">
+      <div className="container px-4 md:px-6 mx-auto max-w-6xl">
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="space-y-4">
             <div className="flex items-center gap-2 group">
               <div className="relative">
-                <CircuitBoard className="h-6 w-6 text-cyan-500 transition-transform duration-300 group-hover:scale-110" />
-                <div className="absolute inset-0 bg-cyan-500/20 rounded-full blur-md -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <CircuitBoard className="h-6 w-6 text-[#00FFFF] transition-transform duration-300 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-[#00FFFF]/20 rounded-full blur-md -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
-              <span className="text-lg font-bold tracking-tight">Abdul Rehman</span>
+              <span className="text-lg font-bold tracking-tight text-[#F5F5F5]">Zaheer Ahmed</span>
             </div>
-            <p className="text-zinc-400 max-w-[400px]">
-              Professional electrical engineer specializing in power systems, circuit design, and industrial automation.
+            <p className="text-[#D8BFD8] max-w-[400px]">
+              Agentic AI Developer & Cloud Generative AI Engineer specializing in LLMs, RAG systems, and scalable backend solutions.
             </p>
             <div className="flex items-center gap-4">
-              <Link href="#" className="text-zinc-400 hover:text-white transition-colors">
+              <Link href="https://www.linkedin.com/in/zaheerahmedabbasi" target="_blank" className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -36,7 +36,7 @@ export const Footer = () => {
                   <circle cx="4" cy="4" r="2"></circle>
                 </svg>
               </Link>
-              <Link href="#" className="text-zinc-400 hover:text-white transition-colors">
+              <Link href="https://github.com/NxtGen-Dev-ZAH" target="_blank" className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -53,7 +53,7 @@ export const Footer = () => {
                   <path d="M9 18c-4.51 2-5-2-7-2"></path>
                 </svg>
               </Link>
-              <Link href="#" className="text-zinc-400 hover:text-white transition-colors">
+              <Link href="https://www.instagram.com/zaheer_ahmed556/" target="_blank" className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -76,76 +76,76 @@ export const Footer = () => {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
             <div className="space-y-3">
-              <h4 className="text-sm font-bold uppercase tracking-wider text-zinc-400">Navigation</h4>
+              <h4 className="text-sm font-bold uppercase tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-[#D8BFD8] to-[#E6E6FA]">Navigation</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#about" className="text-zinc-400 hover:text-cyan-400 transition-colors">
+                  <Link href="#about" className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link href="#skills" className="text-zinc-400 hover:text-cyan-400 transition-colors">
+                  <Link href="#skills" className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                     Skills
                   </Link>
                 </li>
                 <li>
-                  <Link href="#projects" className="text-zinc-400 hover:text-cyan-400 transition-colors">
+                  <Link href="#projects" className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link href="#experience" className="text-zinc-400 hover:text-cyan-400 transition-colors">
+                  <Link href="#experience" className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                     Experience
                   </Link>
                 </li>
                 <li>
-                  <Link href="#certifications" className="text-zinc-400 hover:text-cyan-400 transition-colors">
+                  <Link href="#certifications" className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                     Certifications
                   </Link>
                 </li>
                 <li>
-                  <Link href="#contact" className="text-zinc-400 hover:text-cyan-400 transition-colors">
+                  <Link href="#contact" className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                     Contact
                   </Link>
                 </li>
               </ul>
             </div>
             <div className="space-y-3">
-              <h4 className="text-sm font-bold uppercase tracking-wider text-zinc-400">Services</h4>
+              <h4 className="text-sm font-bold uppercase tracking-wider  bg-clip-text text-transparent bg-gradient-to-r from-[#D8BFD8] to-[#E6E6FA]">Services</h4>
               <ul className="space-y-2">
-                <li>
-                  <Link href="#" className="text-zinc-400 hover:text-cyan-400 transition-colors">
-                    Power Systems
-                  </Link>
+                <li>    
+                  <p   className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
+                    Generative AI
+                  </p>
                 </li>
                 <li>
-                  <Link href="#" className="text-zinc-400 hover:text-cyan-400 transition-colors">
-                    Circuit Design
-                  </Link>
+                  <p   className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
+                    Cloud Solutions
+                  </p>
                 </li>
                 <li>
-                  <Link href="#" className="text-zinc-400 hover:text-cyan-400 transition-colors">
-                    Automation
-                  </Link>
+                  <p   className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
+                    AI Agents
+                  </p>
                 </li>
                 <li>
-                  <Link href="#" className="text-zinc-400 hover:text-cyan-400 transition-colors">
+                  <p   className="text-[#D8BFD8] hover:text-[#00FFFF] transition-colors">
                     Consulting
-                  </Link>
+                  </p>
                 </li>
               </ul>
             </div>
             <div className="space-y-3">
-              <h4 className="text-sm font-bold uppercase tracking-wider text-zinc-400">Contact</h4>
+              <h4 className="text-sm font-bold uppercase tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-[#D8BFD8] to-[#E6E6FA]">Contact</h4>
               <ul className="space-y-2">
-                <li className="text-zinc-400">alexander.maxwell@example.com</li>
-                <li className="text-zinc-400">San Francisco, California</li>
+                <li className="text-[#D8BFD8]">dev.zaheer.ahmad@gmail.com</li>
+                <li className="text-[#D8BFD8]">Islamabad, Pakistan</li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="mt-12 border-t border-zinc-800 pt-6 text-center text-sm text-zinc-500">
-          <p>© 2023 Abdul Rehman. All rights reserved.</p>
+        <div className="mt-12 border-t border-[#444444] pt-6 text-center text-sm text-[#D8BFD8]/70">
+          <p>© 2024 Zaheer Ahmed. All rights reserved.</p>
         </div>
       </div>
     </footer>

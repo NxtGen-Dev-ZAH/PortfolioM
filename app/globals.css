@@ -120,3 +120,67 @@
     @apply bg-background text-foreground;
   }
 }
+::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-[#00CED1] to-[#00FFFF];
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gradient-to-b from-[#00FFFF] to-[#0CB8B8];
+}
+
+/* Firefox Scrollbar Styles */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00CED1 transparent;
+}
+
+/* Modal Scrollbar Override */
+.modal-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.modal-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-scroll::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-[#00CED1] to-[#00FFFF];
+  border-radius: 10px;
+}
+
+.modal-scroll::-webkit-scrollbar-thumb:hover {
+  @apply bg-gradient-to-b from-[#00FFFF] to-[#0CB8B8];
+}
+
+/* Chatbot specific scrollbar */
+.chatbot-scroll::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.chatbot-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chatbot-scroll::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-[#30193D] to-[#00FFFF];
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.chatbot-scroll::-webkit-scrollbar-thumb:hover {
+  @apply bg-gradient-to-b from-[#00FFFF] to-[#30193D];
+  opacity: 1;
+}
+

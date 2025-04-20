@@ -8,23 +8,23 @@ const SkillBar = ({ skill, percentage, color }: SkillBarProps) => {
   const getGradientClass = () => {
     switch (color) {
       case "cyan":
-        return "bg-gradient-to-r from-cyan-500 to-cyan-400";
+        return "bg-gradient-to-r from-[#00FFFF] to-[#00CED1]";
       case "purple":
-        return "bg-gradient-to-r from-purple-500 to-purple-400";
+        return "bg-gradient-to-r from-[#30193D] to-[#D8BFD8]";
       case "gradient":
-        return "bg-gradient-to-r from-cyan-500 to-purple-500";
+        return "bg-gradient-to-r from-[#00FFFF] to-[#30193D]";
       default:
-        return "bg-gradient-to-r from-cyan-500 to-cyan-400";
+        return "bg-gradient-to-r from-[#00FFFF] to-[#00CED1]";
     }
   };
 
   return (
     <div className="space-y-2">
       <div className="flex justify-between">
-        <span className="font-medium">{skill}</span>
-        <span className="text-zinc-400">{percentage}%</span>
+        <span className="font-medium text-[#F5F5F5]">{skill}</span>
+        <span className="text-[#D8BFD8]">{percentage}%</span>
       </div>
-      <div className="h-2 w-full rounded-full bg-zinc-800 overflow-hidden">
+      <div className="h-2 w-full rounded-full bg-[#222222] overflow-hidden">
         <div
           className={`h-full rounded-full ${getGradientClass()}`}
           style={{ width: `${percentage}%` }}
